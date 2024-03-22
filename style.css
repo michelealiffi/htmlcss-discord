@@ -15,6 +15,12 @@ h2 {
     font-size: 30px;
 }
 
+hr {
+    border-color: dodgerblue;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
 .head-container {
     background-image: url(img/jumbo.png);
     background-size: 2000px;
@@ -223,37 +229,64 @@ h2 {
 }
 
 .col-foot-1{
-    padding: 50px;
-    padding-top: 500px;
-    padding-left: 300px;
     margin-left: 300px;
 }
 
-.col-foot-2 {
-    background-color: cadetblue;
-    border: solid 2px;
-    border-style: dashed;
+.h2-foot {
+    color: dodgerblue;
+    margin-top: 30px;
+}
+
+.flag-ita {
     display: flex;
+    margin-top: 20px;
 }
 
-.border-white {
-    border: solid 2px;
-    border-style: dashed;
-    border-color: white;
-    padding: 50px;
-    padding-left: 180px;
+.p-foot {
+    color: white;
+    margin-left: 10px;
 }
 
-.footer-container {
-    background-color: black;
-    max-width: 3000px;
+.social-icons{
+    display: flex;
     padding-top: 30px;
-    border-bottom: solid 1px;
-    border-color: grey;
+    max-width: 50px;
+}
+
+.twitter {
+    margin-right: 30px;
+}
+
+.instagram {
+    margin-right: 30px;
+}
+
+.facebook {
+    margin-right: 30px;
+}
+
+.youtube {
+
+}
+
+.col-foot-2 {
+    display: flex;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.blue-text {
+    color: dodgerblue;
+    margin-left: 100px;
+}
+
+.white-text {
+    color: white;
+    margin-left: 100px;
 }
 
 .row-footer-2 {
-    background-color: aquamarine;
     margin-right: 300px;
     margin-left: 300px;
     padding-top: 25px;
@@ -262,22 +295,19 @@ h2 {
 }
 
 .col-foot-3 {
-    background-color: red;
-    border: solid 2px;
-    border-style: dashed;
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
     padding: 2px;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 200px;
 }
 
 .col-foot-4 {
-    background-color: red;
-    border: solid 2px;
-    border-style: dashed;
-    padding: 2px;
-    font-size: 20px;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    margin-left: 1153px;
+    margin-left: 1050px;
 }
