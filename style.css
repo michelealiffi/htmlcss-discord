@@ -11,6 +11,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .head-container {
     background-image: url(img/jumbo.png);
     background-size: 2000px;
@@ -87,15 +91,6 @@ h1 {
 }
 
 .main-container-1 {
-    background-color: blue;
-    max-width: 3000px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: solid 3px;
-    border-color: cadetblue;
-}
-
-.main-container-2 {
     max-width: 3000px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -103,9 +98,8 @@ h1 {
 }
 
 .col-main-1 {
-    background-color: dodgerblue;
-    border: solid 2px;
-    border-style: dashed;
+    background-image: url(img/item1.svg);
+    background-repeat: no-repeat;
     padding: 50px;
     padding-top: 500px;
     padding-left: 700px;
@@ -113,39 +107,59 @@ h1 {
 }
 
 .col-main-2 {
-    background-color: pink;
-    border: solid 2px;
-    border-style: dashed;
+    padding: 50px;
+}
+
+.p-col-1 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-container-2 {
+    background-color: grey;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.col-main-3 {
+    padding: 50px;
+    padding-left: 400px;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+
+.col-main-4 {
+    background-image: url(img/item2.svg);
+    background-repeat: no-repeat;
     padding: 50px;
     padding-top: 500px;
-    padding-left: 500px;
+    padding-left: 700px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .main-container-3 {
-    background-color: grey;
     max-width: 3000px;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
 }
 
-.col-main-3 {
-    background-color: pink;
-    border: solid 2px;
-    border-style: dashed;
-    padding: 50px;
-    padding-top: 500px;
-    padding-left: 500px;
-    margin-left: 300px;
-}
-
-.col-main-4 {
-    background-color: dodgerblue;
-    border: solid 2px;
-    border-style: dashed;
+.col-main-5 {
+    background-image: url(img/item3.svg);
+    background-repeat: no-repeat;
     padding: 50px;
     padding-top: 500px;
     padding-left: 700px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.col-main-6 {
+    padding: 50px;
+    margin-top: 100px;
 }
 
 .main-container-4 {
@@ -155,18 +169,47 @@ h1 {
     padding-bottom: 50px;
 }
 
-.row-main-2 {
-    background-color: green;
-    border: solid 2px;
-    border-style: dashed;
-    padding: 50px;
-    padding-top: 427px;
-    padding-bottom: 427px;
-    margin-left: 300px;
-    margin-right: 300px;
+.h2-main {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
-.main-container-5 {
+.p-col-3 {
+    text-align: center;
+}
+
+.row-main-2 {
+    background-image: url(img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    padding: 50px;
+    padding-top: 427px;
+    padding-bottom: 200px;
+    margin-left: 450px;
+}
+
+.h2-main-2 {
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.main-button {
+    text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin-right: 850px;
+    margin-left: 850px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.footer-container {
     background-color: black;
     max-width: 3000px;
     padding-top: 10px;
@@ -175,21 +218,18 @@ h1 {
     border-color: grey;
 }
 
-.row-main-3 {
+.row-footer {
     display: flex;
 }
 
-.col-main-5 {
-    background-color: red;
-    border: solid 2px;
-    border-style: dashed;
+.col-foot-1{
     padding: 50px;
     padding-top: 500px;
     padding-left: 300px;
     margin-left: 300px;
 }
 
-.col-main-6 {
+.col-foot-2 {
     background-color: cadetblue;
     border: solid 2px;
     border-style: dashed;
@@ -212,7 +252,7 @@ h1 {
     border-color: grey;
 }
 
-.row-footer {
+.row-footer-2 {
     background-color: aquamarine;
     margin-right: 300px;
     margin-left: 300px;
@@ -221,7 +261,7 @@ h1 {
     display: flex;
 }
 
-.col-foot-1 {
+.col-foot-3 {
     background-color: red;
     border: solid 2px;
     border-style: dashed;
@@ -231,7 +271,7 @@ h1 {
     padding-right: 5px;
 }
 
-.col-foot-2 {
+.col-foot-4 {
     background-color: red;
     border: solid 2px;
     border-style: dashed;
